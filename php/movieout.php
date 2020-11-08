@@ -55,10 +55,10 @@ mysqli_close($conn);
                 
                 <div id="navbarSupportedContent" class="collapse navbar-collapse">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active"><a href="/fantasy cinema - website/index.html" class="nav-link text-uppercase font-weight-bold">Home <span class="sr-only">(current)</span></a></li>
-                        <li class="nav-item"><a href="/fantasy cinema - website/about.html" class="nav-link text-uppercase font-weight-bold">About</a></li>
-                        <li class="nav-item"><a href="/fantasy cinema - website/contact.html" class="nav-link text-uppercase font-weight-bold">Contact</a></li>
-						<li class="nav-item"><a href="/fantasy cinema - website/movie submit.html" class="nav-link text-uppercase font-weight-bold">Submit a Movie</a></li>
+                        <li class="nav-item active"><a href="../index.html" class="nav-link text-uppercase font-weight-bold">Home <span class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"><a href="../about.html" class="nav-link text-uppercase font-weight-bold">About</a></li>
+                        <li class="nav-item"><a href="../contact.html" class="nav-link text-uppercase font-weight-bold">Contact</a></li>
+						<li class="nav-item"><a href="../movie submit.html" class="nav-link text-uppercase font-weight-bold">Submit a Movie</a></li>
                     </ul>
                 </div>
             </div>
