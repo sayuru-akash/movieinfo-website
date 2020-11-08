@@ -1,0 +1,140 @@
+/* CSS Document */
+
+		*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url("../images/itwallpaper.jpg");
+            padding: 0 10px;
+        }
+.topbutton{
+	border-bottom-right-radius: 99px;
+	margin-top: 0;
+	margin-left: 0;
+	display: inline-grid;
+	background-color: red;
+	font-family: Cursive;
+	padding: 40px;
+	position: absolute;
+}
+
+        .wrapper{
+            max-width: 500px;
+            width: 100%;
+            background: black;
+            margin: 50px auto;
+            padding: 30px;
+			border-radius: 50px;
+            box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+        }
+        .text{
+            color: yellow;
+        }
+        .wrapper .title{
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 25px;
+            color: #FCF949;
+            font-family: 'Bebas Neue', cursive;
+            text-align: center;
+        }
+        .wrapper .form{
+            width: 100%;
+        }
+        .wrapper .form .form_control{
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        .wrapper .form .form_control label{
+            width: 200px;
+            color: white;
+            margin-right: 10px;
+            font-size: 14px;
+        }
+        .wrapper .form .form_control .input_field {
+            width: 100%;
+            outline: none;
+            border: 1px solid #d5dbd9;
+            font-size: 15px;
+            padding: 8px 10px;
+            border-radius: 3px;
+            transition: all 0.3s ease;
+        }
+        .wrapper .form .form_control .input_select{
+            position: relative;
+            width: 100%;
+            height: 37px;
+        }
+        .wrapper .form .form_control .input_select select{
+            -webkit-appearance: none;
+            appearance: none;
+            border: 1px solid #d5dbd9;
+            width: 100%;
+            height: 100%;
+            padding: 8px 10px;
+            border-radius: 3px;
+            outline: none;
+        }
+.wrapper .form .form_control .input_select:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 8px solid;
+    border-color: #d5dbd9 transparent transparent transparent;
+    pointer-events: none;
+    margin: 15px 10px 0 0 ;
+}
+.wrapper .form .form_control .input_field:focus,
+.wrapper .form .form_control .input_select:focus{
+    border: 1px solid cadetblue;
+}
+.agree{
+    font-size: 14px;
+    color: white;
+}
+.warn{
+	font-family: cursive;
+    font-size: 14px;
+    color: black;	
+}
+        .wrapper .form .form_control .check{
+            width: 15px;
+            height: 15px;
+            position: relative;
+            display: block;
+            cursor: pointer;
+        }
+        .wrapper .form .form_control .check input[type="checkbox"]
+        {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .wrapper .form .form_control .btn-custom {
+            width: 100%;
+            padding: 8px 10px;
+            font-size: 15px;
+            border: 0;
+            background: #FF0000;
+            color: black;
+            cursor: pointer;
+            border-radius: 4px;
+            outline: none;
+        }
+
+.file-btn{
+	background-color: white;
+	width: 100%;
+	font-family: roboto, arial, serif;
+}
+
+a{
+	color: white;
+}
+a:hover{
+	color: yellow;
+}

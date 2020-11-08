@@ -1,0 +1,191 @@
+/*CSS Document*/
+
+body{
+    background-color: black;
+}
+
+.align{
+    max-width: 95%;
+    margin-left: 30px;
+}
+
+.single-item img{
+    width: 98%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-position: center;
+}
+
+.header {
+    position:fixed;
+    background-color: black;
+    padding: 20px 10px;
+    min-width: 100vw;
+    z-index: 1;
+    top: 0;
+  }
+  
+  .header li{
+      float: left;
+      margin: 0 10px;
+  }
+  .header a {
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 999px;
+  }
+  
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .header-right {
+    float: right;
+    border-right: 10px;
+  }
+
+  .mytitle{
+    transform: translateY(-50%);
+	display: block;
+    position: relative;
+    top: 25%;
+    left:10%;
+    text-transform: uppercase;
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    white-space: nowrap;
+    transition: 0.6s;
+    font-family: aharoni, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  }
+  
+.single-item{
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.mytitle{
+	transform: translateY(-50%);
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+ .mytitle i {
+    font-size: 50px;
+    font-style: normal;
+    font-family: montserrat-hairline;
+    font-weight: 400;
+	color: white;
+  }
+  
+  a{
+      text-decoration: none;
+      color: white;
+  }
+
+  .btn-trailer{
+    transform: translateY(-50%);
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    white-space: nowrap;
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #000;
+    font-weight: 800;
+    text-decoration: none;
+    transition: all 0.25s ease;
+  }
+  .btn-trailer a:hover{
+      color: orange;
+  }
+
+.movie-list{
+	min-height: 85vh;
+	margin: auto;
+	width: 90%;
+	padding: 10px;
+	display: inline-block;
+	place-items:center;
+	margin-left: 80px;
+}
+.greyish {
+  background: smoke !important;
+}
+  
+h1 {
+    margin: rem-calc(100) 0 0;
+}
+
+.movie-img-container img {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(50%); /* Chrome 19+ & Safari 6+ */
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+  height: 325px;
+  object-fit: cover;
+}
+
+.movie-img-container {
+  display: inline-block;
+  position: relative;
+  float: left;
+  height: 325px;
+  width: 220px;
+  overflow: hidden;
+  margin: 0px 30px;
+  border-radius: 10px;
+}
+
+.spbutton {
+    display: none;
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+	border-radius: 999px;
+}
+
+.movie-img-container:hover .spbutton {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+	color: gold;
+}
+
+.movie-img-container:hover img {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+	padding: 5px;
+}
+
+h3{
+	color: white;
+	font-family: cursive;
+	font-size: 30px;
+}

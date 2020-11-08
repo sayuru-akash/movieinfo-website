@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+.navbar {
+	transition: all 0.4s;
+	background-color: black;
+}
+
+.navbar .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: rgb(255, 255, 255);
+}
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background-color: rgb(109, 109, 109);
+	box-shadow: 1px 2px 10px rgba(255, 255, 255, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: rgb(255, 255, 255);
+}
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: rgb(0, 0, 0);
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+}
+
+.alignbox{
+	min-height: 100vh;
+	max-width: 100%;
+	margin-top: 5%;
+	background-color: black;
+}
+
+.posterdiv{
+	max-width: 40vw;
+	float: left;
+	overflow: hidden;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+.posterdiv img{
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 600px;
+	object-fit: cover;
+}
+
+.division{
+	border-top: 3px solid gray;
+	min-width: 100%;
+}
+
+.datadiv{
+	color: white;
+	max-width: 40vw;
+	float: left;
+	margin: 40px 25px 0px 20px;
+}
+
+.subdata{
+	min-width: 55vw;
+}
+.personaldata{
+	margin-top: 40%;
+}
