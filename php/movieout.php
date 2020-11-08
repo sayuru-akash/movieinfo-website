@@ -50,7 +50,7 @@ mysqli_close($conn);
 	<div class="alignbox">
 	<header class="header">
         <nav class="navbar navbar-expand-lg fixed-top py-3">
-            <div class="container"><a href="index.html" class="navbar-brand text-uppercase font-weight-bold"><img src="../images/logo2.jpg" alt="logo"></a>
+            <div class="container"><a href="../index.html" class="navbar-brand text-uppercase font-weight-bold"><img src="../images/logo2.jpg" alt="logo"></a>
                 <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
                 
                 <div id="navbarSupportedContent" class="collapse navbar-collapse">
