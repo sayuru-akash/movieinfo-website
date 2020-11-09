@@ -49,5 +49,61 @@ mysqli_close($conn);
 			<a href="../index.html">Go Back To Home</a>
 			</div>
 		</div>
+		
+		<footer class="footer-distributed">
+ 
+		<div class="footer-left">
+ 
+		<h3>Fantasy<span>Cinema</span></h3>
+ 
+		<p class="footer-links">
+		<a href="../index.html">Home</a>
+	·
+		<a href="../about.html">About</a>
+	·
+		<a href="../contact.html">Contact</a>
+		</p>
+ 
+		<p class="footer-company-name">fantasycinema &copy; 2020</p>
+		</div>
+ 
+		<div class="footer-center">
+ 
+		<div>
+		<i class="fa fa-map-marker"></i>
+		<p><span>21 Revolution Street</span> Colombo, SriLanka</p>
+		</div>
+ 
+		<div>
+		<i class="fa fa-phone"></i>
+		<p>+94 077 1234567</p>
+		</div>
+ 
+		<div>
+		<i class="fa fa-envelope"></i>
+		<p><a href="mailto:contact@fantasycinema.com">contact@fantasycinema.com</a></p>
+		</div>
+ 
+		</div>
+ 
+		<div class="footer-right">
+ 
+		<p class="footer-company-about">
+		<span>About the company</span>
+	Fantasy Cinema is a website to know about trending movies, tv-series  &amp; also you can stream the content you love from anywhere at anytime.
+		</p>
+ 
+		<div class="footer-icons">
+ 
+		<a href="https://facebook.com"><i class="fa fa-facebook"></i></a>
+		<a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+		<a href="https://linkedin.com"><i class="fa fa-linkedin"></i></a>
+		<a href="https://github.com"><i class="fa fa-github"></i></a>
+ 
+		</div>
+ 
+		</div>
+ 
+		</footer>
 	</body>
 </html>
