@@ -32,6 +32,7 @@ mysqli_close($conn);
 <html>
 	<head>
 		<title>Contact Form Submission | Fantasy Movie</title>
+		<link rel="stylesheet" type="text/css" href="../css/contactform.css">
 		<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
 		<link rel="icon" href="../images/favicon.ico" type="image/x-icon">
 		<link href="../css/footer.css" rel="stylesheet" type="text/css">
