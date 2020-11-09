@@ -42,7 +42,7 @@ mysqli_close($conn);
 	<body>
 		<div class="alignbox">
 			<div class="statusreport">
-			<h1>Movie Submission Status</h1><hr class="break">
+			<h1>Contact Form Submission Status</h1><hr class="break">
 			<p><?php echo $status; ?></p>
 			</div>
 			<div class="linkbutton">
