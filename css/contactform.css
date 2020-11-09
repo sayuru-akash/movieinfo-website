@@ -9,7 +9,7 @@ body{
 .alignbox{
 	min-height: 100vh;
 	width: 100%;
-	background-image: url("../images/itwallpaper.jpg");
+	background-image: url("../images/bg.jpg");
 	display: grid;
 	place-items: center;
 }
