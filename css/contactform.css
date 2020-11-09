@@ -1,3 +1,15 @@
 @charset "utf-8";
 /* CSS Document */
 
+body{
+	background-color: black;
+	color: white;
+}
+
+.alignbox{
+	min-height: 100vh;
+	width: 100%;
+	background-image: url("../images/itwallpaper.jpg");
+	display: grid;
+	place-items: center;
+}
