@@ -21,6 +21,14 @@ body{
 	min-width: 100%;
 }
 
+.linkbutton{
+	display: grid;
+	place-items: center;
+	background-color: red;
+	padding: 25px;
+	border-radius: 99px;
+}
+
 a{
 	color: white;
 }

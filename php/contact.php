@@ -44,7 +44,10 @@ mysqli_close($conn);
 			<div class="statusreport">
 			<h1>Movie Submission Status</h1><hr class="break">
 			<p><?php echo $status; ?></p>
-	</div>
+			</div>
+			<div class="linkbutton">
+			<a href="../index.html">Go Back To Home</a>
+			</div>
 		</div>
 	</body>
 </html>
