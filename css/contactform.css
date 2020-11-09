@@ -13,3 +13,15 @@ body{
 	display: grid;
 	place-items: center;
 }
+
+a{
+	color: white;
+}
+a:hover{
+	color: yellow;
+}
+
+.break{
+	border-top: 3px #636363;
+	width: 70%;
+}
