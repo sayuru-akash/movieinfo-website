@@ -23,7 +23,7 @@ function validate()
 			return false;
 		}
 	
-	//address validation
+	//year validation
 	else if (year==""){
 		alert("Year is Missing!");
 		return false;
