@@ -126,3 +126,13 @@ body {
   padding-right: 8px;
   padding-left: 3px;
 }
+
+@media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }

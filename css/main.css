@@ -189,3 +189,13 @@ h3{
 	font-family: cursive;
 	font-size: 30px;
 }
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
