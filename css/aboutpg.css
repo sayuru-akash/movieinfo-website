@@ -71,58 +71,57 @@ body {
 	object-fit: cover;
 }
 
-.division{
-	height: 100vh;
-	width: 100vw;
-	overflow: hidden;
-	
+.imaged {
+  padding:10px;
+  text-align:center;
+  background:
+    linear-gradient(to top,white,white) repeat-x center,
+    linear-gradient(to top, 
+      transparent 50%, #0052A4 50%),linear-gradient(to bottom,
+        transparent 50%,#C2DFFD 50%)
+    ;
+  background-size:
+    1px 4px, 
+    100% 100%,
+    100% 100%
+    ;
 }
-.divone{
-	background-color: aqua;
-	min-height: 50%;
-	min-width: 100%;
-	position: relative;
-	overflow: hidden;
+.imaged img {
+  border:solid white 4px;
+  vertical-align:top;
+  height: 300px;
+  width: 950px;
+  object-fit: cover;
+  top: 0;
 }
-.divtwo{
-	background-color: white;
-	min-height: 50%;
-	position: relative;
-	overflow: hidden;
-}
-
-.divone p{
+.paraone{
 	color: black;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	font-size: 75px;
-	text-align: center;
-}
-.division img{
-	position: absolute;
-	height: 250px;
-	width: 600px;
-	top: 850px;
-	left: 430px;
-	object-fit: cover;
-	margin-top:-50px;
-    margin-left:-50px;
-	overflow: hidden;
+	font-size: 70px;
+	margin: 20px;
 }
 
-.divtwo p{
-	margin-left: 70px;
-	margin-right: 60px;
-	margin-top: 130px;
+.paratwo{
+	margin-left: auto;
+	margin-right: auto;
 	font-family: roboto;
 	font-size: 20px;
 }
-.divtwo p:first-child:first-letter {
-  color: #903;
-  float: left;
-  font-family: Georgia;
-  font-size: 75px;
-  line-height: 60px;
-  padding-top: 4px;
-  padding-right: 8px;
-  padding-left: 3px;
+
+@media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+	.imaged img{
+		border:solid white 4px;
+ 		vertical-align:top;
+ 		height: 200px;
+ 		width: 450px;
+ 		object-fit: cover;
+	}
 }
