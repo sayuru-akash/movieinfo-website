@@ -62,7 +62,7 @@ mysqli_close($conn);
 		<a href="../index.html">BACK TO HOME</a>
 	</div>
 	<div class="statusreport">
-		<h1>Movie Submission Status</h1><hr class="break">
+		<h1>Status of Your Submission</h1><hr class="break">
 		<p><?php echo $status; ?></p>
 	</div>
 	<div class="linkbutton">
